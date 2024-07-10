@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-image: url('tommy.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.header{
+    background-color:black;
+    color: aqua;
+}
+.one{
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
+.one:hover{
+   color:darkgray;
+   cursor: pointer;
+}
+
+
+
+.dogsphotos{
+    text-align: center;
+}
+.box{
+    display:inline-block;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-width: 1.5px;
+    border-color: white;
+    border-style: solid;
+    color:white;
+    width:200px;
+    padding:10px;
+}
+.two{
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.three{
+    display:block;
+    
+    color:black;
+    padding:20px;
+}
+.three:hover{
+    color:white;
+    cursor:pointer;
+}
